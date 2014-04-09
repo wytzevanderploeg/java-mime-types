@@ -6,7 +6,6 @@ package org.vertedge.util;
 public enum MimeType {
 
     /* Preferred Common Types */
-    APPLICATION_JAVASCRIPT_JS("application/javascript", ".js"),
     APPLICATION_PDF_PDF("application/pdf", ".pdf"),
     APPLICATION_ZIP_ZIP("application/zip", ".zip"),
     AUDIO_MPEG3_MP3("audio/mpeg3", ".mp3"),
@@ -16,10 +15,12 @@ public enum MimeType {
     IMAGE_PNG_PNG("image/png", ".png"),
     TEXT_CSS_CSS("text/css", ".css"),
     TEXT_CSV_CSV("text/csv", ".csv"),
+    TEXT_JAVASCRIPT_JS("text/javascript", ".js"),
     TEXT_PLAIN_TXT("text/plain", ".txt"),
     VIDEO_AVI_AVI("video/avi", ".avi"),
     VIDEO_QUICKTIME_MOV("video/quicktime", ".mov"),
     VIDEO_MPEG_MP4("video/mp4", ".mp4"),
+    VIDEO_MATROSKA_MKV("video/x-matroska", ".mkv"),
 
     /* Other */
     APPLICATION_XBYTECODEPYTHON_PYC("application/x-bytecode.python", ".pyc"),
@@ -64,6 +65,7 @@ public enum MimeType {
     APPLICATION_INF_INF("application/inf", ".inf"),
     APPLICATION_JAVABYTECODE_CLASS("application/java-byte-code", ".class"),
     APPLICATION_JAVA_CLASS("application/java", ".class"),
+    APPLICATION_JAVASCRIPT_JS("application/javascript", ".js"),
     APPLICATION_LHA_LHA("application/lha", ".lha"),
     APPLICATION_LZX_LZX("application/lzx", ".lzx"),
     APPLICATION_MACBINARY_BIN("application/mac-binary", ".bin"),
@@ -507,7 +509,6 @@ public enum MimeType {
     TEXT_HTML_HTMLS("text/html", ".htmls"),
     TEXT_HTML_HTX("text/html", ".htx"),
     TEXT_HTML_SHTML("text/html", ".shtml"),
-    TEXT_JAVASCRIPT_JS("text/javascript", ".js"),
     TEXT_MCF_MCF("text/mcf", ".mcf"),
     TEXT_PASCAL_PAS("text/pascal", ".pas"),
     TEXT_PLAIN_C("text/plain", ".c"),
