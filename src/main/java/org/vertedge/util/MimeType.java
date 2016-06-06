@@ -663,8 +663,8 @@ public enum MimeType {
     XWORLD_XVRML_WRZ("x-world/x-vrml", ".wrz"),
     XWORLD_XVRT_VRT("x-world/x-vrt", ".vrt");
 
-    private String type;
-    private String extension;
+    private final String type;
+    private final String extension;
 
     MimeType(String type, String extension) {
         this.type = type;
