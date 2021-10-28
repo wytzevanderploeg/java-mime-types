@@ -286,6 +286,7 @@ public enum MimeType {
     APPLICATION_XOMCDATAMAKER_OMCD("application/x-omcdatamaker", ".omcd"),
     APPLICATION_XOMCREGERATOR_OMCR("application/x-omcregerator", ".omcr"),
     APPLICATION_XOMC_OMC("application/x-omc", ".omc"),
+    APPLICATION_XOPENVNCPROFILE_OVPN("application/x-openvpn-profile", ".ovpn"),
     APPLICATION_XPAGEMAKER_PM4("application/x-pagemaker", ".pm4"),
     APPLICATION_XPAGEMAKER_PM5("application/x-pagemaker", ".pm5"),
     APPLICATION_XPCL_PCL("application/x-pcl", ".pcl"),

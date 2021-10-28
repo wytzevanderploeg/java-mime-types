@@ -1,8 +1,9 @@
 package org.vertedge;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 import org.vertedge.util.MimeType;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MimeTypeTest {
 
@@ -15,4 +16,5 @@ public class MimeTypeTest {
 
         assertEquals(MimeType.APPLICATION_ZIP_ZIP, MimeType.fromExtension(zipExtension));
     }
+
 }
